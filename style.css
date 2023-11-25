@@ -1,0 +1,191 @@
+* {
+    text-align: center;
+    color: #57380A;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inria Sans', sans-serif;
+    user-select: none;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+.images {
+    width: 50%;
+}
+
+main {
+    margin: 0;
+    padding: 2%;
+}
+
+header {
+    background-color: #E1C8AA;
+    padding: 10%;
+}
+
+.header {
+    width: 50%;
+}
+
+body {
+    background-color: #f5e3cd;
+}
+
+footer {
+    background-color: #E1C8AA;
+}
+
+.logo {
+    width: 20%;
+    color: #6D460A;
+}
+
+footer {
+    display: flex;
+    margin-top: 10%;
+    padding: 10%;
+}
+
+section {
+    margin-top: 10%;
+}
+
+figure {
+    padding-top: 5%;
+}
+
+.images {
+    width: 90%;
+}
+
+@media screen and (min-width: 600px){
+
+    header {
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        padding-top: 30%;
+    }
+
+    .aboutme {
+        width: 80%;
+        margin: auto;
+        padding: 3%;
+
+    }
+
+    .my-work {
+        width: 80%;
+        margin: auto;
+        padding: 3%;
+    }
+
+    figure img {
+        padding: 5%;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    section {
+        margin: auto;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px){
+
+    h1, h2, p {
+        cursor: default;
+    }
+
+    p {
+        font-size: 1vw;
+    }
+    .my-work {
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .my-work, a {
+        margin: auto;
+        padding: 0%;
+    }   
+
+    .flex-h2 {
+        margin-top: 5%;
+        flex-shrink: 0;
+        flex-basis: 100%;
+    }
+
+    h2 {
+        padding-bottom: 1%;
+    }
+
+    .width {
+        width: 48%;
+        padding-right: 2%;
+    }
+
+    .images {
+        margin-right: 30%;
+        
+    }
+
+    footer {
+        display: flex;
+        padding: 0%;
+    }
+
+    figure {
+        display: flex;
+        width: 50%;
+        margin-left: 10%;
+        padding: 0%;
+        margin: auto;
+    }
+    
+    header {
+        height: 300px;
+        justify-content:space-evenly;
+        padding: 0%;
+    }
+
+    .header {
+
+        text-align: center;
+        width: auto;
+        padding-left: 0%;
+
+    }
+
+    header h1 {
+        padding-top: 2%;
+        font-size: 60px;
+    }
+
+    .aboutme {
+        width: 60%;
+    }
+
+    .images {
+        width: 100%;
+        padding: 0%;
+    }
+
+}
